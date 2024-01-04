@@ -24,10 +24,12 @@ app_options:
     ascii_mode: true
   gvim.exe:
     ascii_mode: true
-  windowsterminal.exe:
-    ascii_mode: true 
+  windowsterminal.exe:  # 成功在windows terminal 上开启vim_mode
+    ascii_mode: true
+    vim_mode: true
   wt.exe:
     ascii_mode: true
+    vim_mode: true
   conhost.exe:
     ascii_mode: true
   photoshop.exe:
@@ -44,8 +46,12 @@ app_options:
     ascii_mode: true
   code.exe:
     ascii_mode: true
+    vim_mode: true
   obsidian.exe:
     ascii_mode: true
+  idea64.exe:
+    ascii_mode: true
+    vim_mode: true
 # [End of <app_options>]
 
 # [global settings]
