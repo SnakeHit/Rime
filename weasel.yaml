@@ -49,6 +49,7 @@ app_options:
     vim_mode: true
   obsidian.exe:
     ascii_mode: true
+    vim_mode: true
   idea64.exe:
     ascii_mode: true
     vim_mode: true
